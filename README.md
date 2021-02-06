@@ -19,4 +19,4 @@ The class TreeGrowerGapsSplit overrides the method 'get_border' by the parent cl
 
 An instance of TreeGrower has to be passed to the constructor of IsolationForest. The type of TreeGrower defines the type of Isolation Forest.
 
-An instance of TreeGrowerBasic can have a DataPreparator - a class implementing the method "prepare_data" - can be potentially used for training data preprocessing. Default value is None - no preprocessing applied.
+An instance of TreeGrowerBasic can have a DataPreparator - a class implementing the method "prepare_data" - can be potentially used for preprocessing of train data. Default value is None - no preprocessing applied.
