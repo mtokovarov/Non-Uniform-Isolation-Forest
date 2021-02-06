@@ -1,5 +1,5 @@
-"isolated forest functions"
-__author__ = 'Matias Carrasco Kind'
+#The author used original code of Matias Carrasco Kind as the basis for further development
+__author__ = 'Mikhail Tokovarov'
 import numpy as np
 import warnings
 from path_factor import PathFactor
