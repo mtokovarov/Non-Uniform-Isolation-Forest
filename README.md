@@ -20,3 +20,7 @@ The class TreeGrowerGapsSplit overrides the method 'get_border' by the parent cl
 An instance of TreeGrower has to be passed to the constructor of IsolationForest. The type of TreeGrower defines the type of Isolation Forest.
 
 An instance of TreeGrowerBasic can have a DataPreparator - a class implementing the method "prepare_data" - can be potentially used for preprocessing of train data. Default value is None - no preprocessing applied.
+
+The file generatingDatasets.py contains the definition of auxiliary class used for generation of artificial datasets with specified parameters. A generated dataset is built of n spherical clusters and outliers located in between the clusters. The dataset is built in a unite hypercube with the main diagonal ((0,0,…,0)^k,(1,1,…,1)^k ), where k is the number of dimensions.
+
+The example of using DatasetGenerator class as well as testing modified and original algorithms is presented in the file test_gaps.py.
