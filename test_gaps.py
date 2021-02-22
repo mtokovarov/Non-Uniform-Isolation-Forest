@@ -35,7 +35,7 @@ tree_cnt = 100
 sample_size = 256
 repeat_cnt = 100
 
-
+#make sure you have the following folders: 'gap_grower' and 'gap_grower\\generated_data'
 path = 'gap_grower'
 data_path = f'{path}\\generated_data'
 for j, dim_cnt in enumerate(dim_cnts):
